@@ -1,0 +1,58 @@
+.contenedor_crud {
+  position: relative;
+  min-height: 720px;
+}
+.contenedor_crud::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("/img/2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  z-index: -1;
+}
+.contenedor_crud h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+.contenedor_crud .datos {
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contenedor_crud .datos span {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.contenedor_crud #agregar {
+  background-color: black;
+  color: white;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 3px 8px;
+  justify-content: center;
+  margin: auto auto;
+  display: flex;
+}
+.contenedor_crud #tabla {
+  display: flex;
+  justify-content: center;
+}
+.contenedor_crud #tabla th {
+  width: 300px;
+  font-size: 20px;
+  font-weight: 800;
+  border: black 1px solid;
+}
+.contenedor_crud #tabla td {
+  border: black 1px solid;
+  font-size: 20px;
+  font-weight: 800;
+}/*# sourceMappingURL=Style.css.map */
